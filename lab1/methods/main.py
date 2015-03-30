@@ -23,7 +23,7 @@ def initialize_scene():
 def draw(screen, balls) : 
    screen.fill(colors.GREY)        
    for ball in balls:
-      draw_ball(ball, screen)
+      Ball.draw_ball(ball, screen)
 
 
 def can_move_horizontal(ball, width):
